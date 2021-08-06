@@ -198,7 +198,7 @@
                             "description": "Defines log levels for provided categories.",
                             "items": {
                                 "properties": {
-                                    "package": {
+                                    "category": {
                                         "description": "The fqn of the package to configure logging for.",
                                         "type": "string"
                                     },
@@ -216,7 +216,7 @@
                                     }
                                 },
                                 "required": [
-                                    "package",
+                                    "category",
                                     "level"
                                 ]
                             },
