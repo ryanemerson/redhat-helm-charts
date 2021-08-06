@@ -116,7 +116,10 @@
                     "properties": {
                         "authentication": {
                             "description": "If false authentication is disabled for Infinispan's single-port endpoint.",
-                            "type": "boolean"
+                            "type": "boolean",
+                            "ui": {
+                                "widget": "switch"
+                            }
                         },
                         "secretName": {
                             "description": "Specifies a secret that contains all required security data.",
@@ -130,7 +133,11 @@
                             "type": [
                                 "string",
                                 "null"
-                            ]
+                            ],
+                            "ui": {
+                                "minRows": 5,
+                                "widget": "multiline"
+                            }
                         }
                     },
                     "type": [
