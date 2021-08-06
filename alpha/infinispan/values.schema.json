@@ -1,7 +1,7 @@
 {
     "properties": {
         "images": {
-            "description": "1231Define the images used by the Infinispan cluster.",
+            "description": "Define the images used by the Infinispan cluster.",
             "properties": {
                 "server": {
                     "description": "The Infinispan server image.",

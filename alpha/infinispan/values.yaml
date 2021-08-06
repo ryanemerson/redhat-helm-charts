@@ -32,10 +32,10 @@ deploy:
     type: Route
     nodePort: 0
     host: ""
-    annotations: {}
+    annotations: []
 
   logging:
-    categories: {}
+    categories: []
 
   affinity: {}
 
@@ -43,4 +43,4 @@ deploy:
 
   nameOverride: ""
 
-  resourceLabels: {}
+  resourceLabels: []
